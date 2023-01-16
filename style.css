@@ -68,3 +68,36 @@
   text-align: right;
   
 }
+
+@media screen and (max-width: 768px) {
+  .entries tr {
+    width: 100px;
+  }
+  .input,
+  .delete-entry {
+    width: 100px;
+  }
+  .controls,
+  .summary {
+  text-align: center;
+  
+  }
+  .delete-entry {
+    display: flex;
+    align-items: center;
+    align-items: center;
+    width: 100%;
+    background: none;
+    color: #c41111;
+    border: 1px solid rgba(207, 28, 28, 0.8);
+    border-radius: 20%;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.5s ease;
+  }
+  button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
